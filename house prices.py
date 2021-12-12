@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 # loading the model
-models_path = 'C:\Users\Usuario\finalProject\savemodels/'
+models_path = 'C:/Users/Usuario/finalProject/savemodels/'
 model_name = models_path + 'linearmodel.pkl'
 loaded_model = pickle.load(open(model_name, 'rb'))
 
